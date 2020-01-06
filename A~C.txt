@@ -1,0 +1,20 @@
+03-c 4. 네이버 메일 보내기
+네이버도 구글과 마찬가지로 접근 허용을 해야 사용 가능
+내 메일함 설정 - POP3/IMAP 설정 - IMAP/SMTP 사용 허용
+Gmail 버전과 서버주소가 다르고 기타 세부사항을 수정하면 Gmail버전과 비슷함
+
+04-a 1. request 모듈 설치
+타 사이트에서 제공하는 api기능을 사용하기 위해서는 request 모듈이 필요
+cmd 창을 열어 pip install requests (웹크롤링 강의에서 이미 설치한 모듈)
+
+04-b 2. 네이버 개발자 등록
+api를 사용하기 위해서는 네이버 계정을 네이버 개발자 센터에 등록해야함
+회사이름(학교)와 애플리케이션 이름을 설정
+사용 api : Clova Face Recognition, Papago 관련 모든 api #클로바는 네이버가 개발한 안면인식 프로그램
+비로그인 오픈 API 서비스 환경 : WEB 설정, url은 자신 컴퓨터 루프백 주소(http://localhost.com)
+
+04-c 3. 네이버 얼굴 인식 - 가이드 따라하기
+네이버 개발자 Documents - Clova A.I API - CFR API란? 을 읽고 구현예제 - Python 복사
+//를 #으로 올바르게 바꿔 주석처리하고 얼굴인식 부분 테스트를 위해 해당부분 주석/주석해제
+client_id 와 client_secret 은 application - 내 애플리케이션의 내가 만든 애플리케이션 정보 입력
+YOUR_FILE_NAME 에는 준비한 유명인의 사진을 프로그램 폴더내에 저장한뒤 파일명을 작성
