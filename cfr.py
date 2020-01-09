@@ -4,8 +4,8 @@ import requests
 from pprint import pprint
 import json
 
-client_id = "v90srga7toF_IwP3E_QL"
-client_secret = "1ExAb21HCk"
+client_id = ""
+client_secret = ""
 
 #url = "https://openapi.naver.com/v1/vision/face" # 얼굴감지
 url = "https://openapi.naver.com/v1/vision/celebrity" # 유명인 얼굴인식
