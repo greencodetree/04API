@@ -8,8 +8,8 @@ from pprint import pprint
 with open('source.txt','r',encoding='utf8') as f:
     srcText = f.read()
 
-client_id = "v90srga7toF_IwP3E_QL" # 개발자센터에서 발급받은 Client ID 값
-client_secret = "1ExAb21HCk" # 개발자센터에서 발급받은 Client Secret 값
+client_id = "" # 개발자센터에서 발급받은 Client ID 값
+client_secret = "" # 개발자센터에서 발급받은 Client Secret 값
 
 encText = urllib.parse.quote(srcText)  #번역할 내용
 data = "source=ko&target=en&text=" + encText    #원본 언어와 바꿀 언어
